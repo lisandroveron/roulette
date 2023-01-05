@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/index.css">
+	<title></title>
+</head>
+<body>
+	<h1>Russian Roulette</h1>
+	<div id="p1">
+		<h2>Player 1</h2>
+		<p>Who will you shoot?</p>
+		<input class="myself" type="button" data-target="p1" value="Myself" onclick="check(this)">
+		<input class="him" type="button" data-target="p2" value="Him" onclick="check(this)">
+		<p>Your turn.</p>
+	</div>
+	<div id="p2">
+		<h2>Player 2</h2>
+		<p>Who will you shoot?</p>
+		<input class="myself" type="button" data-target="p2" value="Myself" onclick="check(this)" disabled="true">
+		<input class="him" type="button" data-target="p1" value="Him" onclick="check(this)" disabled="true">
+		<p></p>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
