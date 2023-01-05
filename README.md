@@ -2,9 +2,9 @@
 
 The Russian Roulette is a potentially lethal game of chance in which a player places a single round in a revolver, spins the cylinder, places the muzzle against the head or body (of the opponent or themselves), and pulls the trigger. If the loaded chamber aligns with the barrel, the weapon will fire, killing or severely injuring the player.
 
-(Definition from [Wikipedia](https://en.wikipedia.org/wiki/Russian_roulette))
+(Definition from [Wikipedia](https://en.wikipedia.org/wiki/Russian_roulette)).
 
-Check the [game](https://lisandroveron.github.io/roulette/)
+Check the [game](https://lisandroveron.github.io/roulette/).
 
 ---
 
