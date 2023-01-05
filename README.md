@@ -4,6 +4,8 @@ The Russian Roulette is a potentially lethal game of chance in which a player pl
 
 (Definition from [Wikipedia](https://en.wikipedia.org/wiki/Russian_roulette))
 
+Check the [game](https://lisandroveron.github.io/roulette/)
+
 ---
 
 ## Rules
