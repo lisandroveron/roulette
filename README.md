@@ -4,13 +4,17 @@ The Russian Roulette is a potentially lethal game of chance in which a player pl
 
 (Definition from [Wikipedia](https://en.wikipedia.org/wiki/Russian_roulette))
 
+---
+
 ## Rules
-In each turn, the player will have 2 options: trigger the gun himself, or trigger the other.
+In each turn, the player will have 2 options: trigger the gun himself, or trigger to the other.
+
 If the player decide to trigger himself but the gun doesn't fire, the game will go to the next turn.
-But if he decides to trigger the other player and the gun doesn't fire, the player is forced to trigger himself before the game goes to the next turn.
+
+But if he decides to trigger to the other player and the gun doesn't fire, the player is forced to trigger himself before the game goes to the next turn.
 
 ---
 
 The gun has a certain number of slots (in this case, it is assumed to be a revolver with 6 bullets) and the bullet can be in any of them (determined at random).
 
-If you trigger the gun yourself and it goes off, the game is over and there is a winner (Spoiler: You aren't).
+If the gun shoots you, the game is over and there is a winner (Spoiler: You aren't).
