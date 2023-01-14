@@ -17,6 +17,10 @@ function getRandom(){
 	return Math.floor(Math.random() * (max - min) + min);
 };
 
+// Setting the bullets counter
+let counter = document.getElementById("counter");
+counter.textContent = max - 1;
+
 // Checking if the current slot is that contains the bullet
 // The logic is simple:
 // 1. Check if the current slot contains the bullet. If so, the player dies and the other player wins.
@@ -24,6 +28,7 @@ function getRandom(){
 // 3. ...if the player decided to trigger the other player in the first step and the shot did not go off, now he must trigger himself.
 // 4. If the bullet does not come out, the game goes to the next turn.
 function check(tag){
+	counter.textContent -= 1;
 	// Step 1 ->
 	if(cylinder[0] == bullet){
 		let target = document.getElementById(tag.getAttribute("data-target"));
