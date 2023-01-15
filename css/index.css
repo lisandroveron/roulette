@@ -23,7 +23,7 @@ h1{
 #p1 p, #p2 p{
 	grid-column-end: span 2;
 }
-#counter{
+.counter{
 	text-align: center;
 	font-size: 2em;
 }
